@@ -18,6 +18,8 @@ Blit een stukje tekst "Game over" naar het scherm als de auto de pion raakt.
 
 Slides: https://docs.google.com/presentation/d/1VjYiTjIcSU_x6R_K0pPASkzf7xis3oa_IpjzcmC-Wq8/edit?usp=sharing
 '''
+import os
+os.environ['SDL_AUDIODRIVER'] = 'dsp'
 
 import pygame
 

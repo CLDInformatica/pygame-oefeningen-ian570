@@ -4,6 +4,8 @@
 
 # Voeg hierna de jump animatie toe. Op dit moment gaat dezelfde animatie verder als de speler springt.
 # Zorg ervoor dat de speler een jump animatie krijgt als de speler springt.
+import os
+os.environ['SDL_AUDIODRIVER'] = 'dsp'
 
 import pygame, sys
 from pygame.locals import QUIT  

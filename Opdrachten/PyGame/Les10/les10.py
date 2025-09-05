@@ -1,4 +1,6 @@
 # Dit is een voorbeeld. Je kan dit voorbeeld gebruiken om geluid toe te voegen in je eigen game.
+import os
+os.environ['SDL_AUDIODRIVER'] = 'dsp'
 
 import pygame, sys
 from pygame.locals import QUIT
