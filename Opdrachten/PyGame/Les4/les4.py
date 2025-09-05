@@ -33,12 +33,12 @@ running = True
 background_surface = pygame.Surface((800, 400))
 background_surface.fill("white")
 
-weg_surface = pygame.image.load("graphics/weg.png").convert()
+weg_surface = pygame.image.load("Opdrachten/PyGame/Les4/graphics/weg.png").convert()
 
-auto_surface = pygame.image.load("graphics/auto.png").convert_alpha()
+auto_surface = pygame.image.load("Opdrachten/PyGame/Les4/graphics/auto.png").convert_alpha()
 auto_rect = auto_surface.get_rect(bottom = 350)
 
-obstakel_surface = pygame.image.load("graphics/obstakel.png").convert_alpha()
+obstakel_surface = pygame.image.load("Opdrachten/PyGame/Les4/graphics/obstakel.png").convert_alpha()
 obstakel_rect = obstakel_surface.get_rect(bottomleft = (625, 280))
 
 while running:

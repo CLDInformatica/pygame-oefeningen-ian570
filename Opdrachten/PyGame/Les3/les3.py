@@ -21,7 +21,7 @@ running = True
 background_surface = pygame.Surface((800, 400))
 background_surface.fill("white")
 
-auto_surface = pygame.image.load("graphics/auto.png").convert_alpha()
+auto_surface = pygame.image.load("Opdrachten/PyGame/Les3/graphics/auto.png").convert_alpha()
 auto_x_pos = 200
 
 while running:
