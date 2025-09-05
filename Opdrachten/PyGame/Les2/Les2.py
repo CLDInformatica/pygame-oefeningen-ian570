@@ -17,6 +17,8 @@ Extra tijd:
 
 Slides: https://docs.google.com/presentation/d/1c4C94q8OcMGCIFefVo18Xac4WIFJacq5Eutj1gY6rCg/edit?usp=sharing
 '''
+import os
+os.environ['SDL_AUDIODRIVER'] = 'dsp'
 
 import pygame
 

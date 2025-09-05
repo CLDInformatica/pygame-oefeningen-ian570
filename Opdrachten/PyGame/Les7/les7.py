@@ -8,6 +8,8 @@
 #   - Als de speler dan op spatie drukt, start het spel dan opnieuw (game_actief = True)
 
 # Slides: https://docs.google.com/presentation/d/1fzbS39wrbh226ts72wHhQzyjpxuYxhqV9pEE8XcwTPM/edit?usp=sharing
+import os
+os.environ['SDL_AUDIODRIVER'] = 'dsp'
 
 import pygame, sys
 from pygame.locals import QUIT
